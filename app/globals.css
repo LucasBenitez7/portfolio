@@ -262,13 +262,16 @@ nav {
     transform 0.3s ease,
     box-shadow 0.3s ease;
 }
-.card:hover {
-  border-color: var(--border-hover);
-  background: var(--bg-card-hover);
-  transform: translateY(-4px);
-  box-shadow:
-    0 24px 64px rgba(0, 0, 0, 0.55),
-    0 0 0 1px var(--accent-border);
+
+@media (hover: hover) {
+  .card:hover {
+    border-color: var(--border-hover);
+    background: var(--bg-card-hover);
+    transform: translateY(-4px);
+    box-shadow:
+      0 24px 64px rgba(0, 0, 0, 0.55),
+      0 0 0 1px var(--accent-border);
+  }
 }
 
 /* ─── CHIPS ─── */
@@ -332,14 +335,9 @@ nav {
 .photo-ring::before {
   content: "";
   position: absolute;
-  inset: -3px;
+  inset: -1px;
   border-radius: 50%;
-  background: conic-gradient(
-    var(--accent) 0deg,
-    transparent 160deg,
-    var(--accent-dark) 280deg,
-    var(--accent) 360deg
-  );
+  background: var(--accent);
   z-index: -1;
 }
 @keyframes spin {

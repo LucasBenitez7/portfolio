@@ -134,6 +134,7 @@ export default function Hero() {
                 overflow: "hidden",
                 position: "relative",
                 border: "2px solid var(--bg)",
+                background: "var(--bg-card)",
               }}
             >
               <Image
@@ -141,7 +142,7 @@ export default function Hero() {
                 alt="Lucas Benítez"
                 fill
                 sizes="(max-width: 768px) 220px, 220px"
-                style={{ objectFit: "cover", objectPosition: "center top", }}
+                style={{ objectFit: "cover", objectPosition: "center top" }}
                 priority
               />
             </div>
