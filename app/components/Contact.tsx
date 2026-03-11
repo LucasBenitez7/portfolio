@@ -10,7 +10,7 @@ const CONTACT_LINKS = [
     label: "LucasBenitez7",
   },
   {
-    href: "https://linkedin.com/in/lucas-benitez",
+    href: "https://www.linkedin.com/in/lucas-ben%C3%ADtez-b38069291/",
     icon: <IconLinkedIn />,
     label: "lucas-benítez",
   },
@@ -82,7 +82,8 @@ export default function Contact() {
             fontWeight: 300,
           }}
         >
-          Busco posición remota como Full Stack Developer o Backend Developer. Si te interesa mi perfil, hablemos.
+          Busco posición remota como Full Stack Developer o Backend Developer.
+          Si te interesa mi perfil, hablemos.
         </p>
 
         <a
