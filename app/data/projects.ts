@@ -1,12 +1,11 @@
 export const PROJECTS = [
   {
     id: "acme",
-    name: "Acme Commerce",
-    type: "E-commerce",
+    type: "E-commerce · Demo",
     url: "https://shop.lsbstack.com",
     repo: "https://github.com/LucasBenitez7/acme-commerce-starter",
     description:
-      "Tienda online completa con pagos reales, autenticación avanzada (OAuth + OTP + roles), panel de administración con CRUD, emails transaccionales y suite de tests completa con CI/CD.",
+      "Tienda online completa con pagos reales, autenticación avanzada (OAuth + OTP + roles), panel de administración con CRUD, emails transaccionales y suite de tests completa con CI/CD. Demo con pagos en modo test de Stripe",
     stack: [
       "Next.js 15",
       "React 19",
@@ -42,7 +41,7 @@ export const PROJECTS = [
   {
     id: "ticketmaster",
     name: "TicketMaster API",
-    type: "REST API · Alta Concurrencia",
+    type: "REST API · Alta Concurrencia · Demo",
     url: "https://ticket.lsbstack.com/api/docs",
     repo: "https://github.com/LucasBenitez7/ticketmaster-api",
     description:

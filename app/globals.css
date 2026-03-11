@@ -340,7 +340,6 @@ nav {
     var(--accent-dark) 280deg,
     var(--accent) 360deg
   );
-  animation: spin 10s linear infinite;
   z-index: -1;
 }
 @keyframes spin {

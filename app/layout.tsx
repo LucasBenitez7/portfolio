@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Full Stack Developer con proyectos en producción: e-commerce con Stripe y API REST verificada con k6 (500 VUs, 0% errores).",
     siteName: "Lucas Benítez",
-    images: ["/photo.jpg"],
+    images: ["/photo.png"],
   },
   twitter: {
     card: "summary_large_image",

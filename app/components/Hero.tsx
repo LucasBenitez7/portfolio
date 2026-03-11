@@ -137,11 +137,11 @@ export default function Hero() {
               }}
             >
               <Image
-                src="/photo.jpg"
+                src="/photo.png"
                 alt="Lucas Benítez"
                 fill
                 sizes="(max-width: 768px) 220px, 220px"
-                style={{ objectFit: "cover", objectPosition: "center top" }}
+                style={{ objectFit: "cover", objectPosition: "center top", }}
                 priority
               />
             </div>
