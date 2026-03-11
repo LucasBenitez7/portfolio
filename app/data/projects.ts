@@ -2,6 +2,7 @@ export const PROJECTS = [
   {
     id: "acme",
     type: "E-commerce · Demo",
+    name: "Acme Commerce",
     url: "https://shop.lsbstack.com",
     repo: "https://github.com/LucasBenitez7/acme-commerce-starter",
     description:
