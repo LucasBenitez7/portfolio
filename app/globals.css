@@ -63,14 +63,14 @@ body::before {
 
 /* ─── SCROLLBAR ─── */
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 6px;
 }
 ::-webkit-scrollbar-track {
   background: var(--bg);
 }
 ::-webkit-scrollbar-thumb {
   background: var(--text-muted);
-  border-radius: 2px;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent);
@@ -192,16 +192,41 @@ a {
 }
 
 /* ─── NAV ─── */
+/* z-index 10000: por encima del body::before (9999) para que el nav no quede debajo del overlay */
 nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  width: 100%;
+  z-index: 10000;
+  padding-top: env(safe-area-inset-top);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   background: rgba(8, 8, 8, 0.9);
   border-bottom: 1px solid var(--border);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* En mobile/touch: fondo sólido + pseudo-elemento para garantizar opacidad (fix iOS Safari) */
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
+  nav {
+    background: #080808 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+  nav::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #080808;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
 }
 
 /* ─── BOTONES ─── */

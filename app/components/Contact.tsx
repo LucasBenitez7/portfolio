@@ -50,40 +50,14 @@ export default function Contact() {
         <p
           style={{
             fontFamily: "JetBrains Mono, monospace",
-            fontSize: 11,
+            fontSize: 14,
             color: "var(--accent)",
             letterSpacing: "0.15em",
             textTransform: "uppercase",
-            marginBottom: 16,
+            marginBottom: 50,
           }}
         >
           04 / contacto
-        </p>
-        <h2
-          style={{
-            fontFamily: "Cormorant Garamond, serif",
-            fontSize: "clamp(2.5rem, 6vw, 5rem)",
-            fontWeight: 300,
-            lineHeight: 1.05,
-            marginBottom: 24,
-          }}
-        >
-          Trabajemos{" "}
-          <em style={{ fontStyle: "italic", color: "var(--accent)" }}>
-            juntos
-          </em>
-        </h2>
-        <p
-          style={{
-            fontSize: 15,
-            color: "var(--text-secondary)",
-            lineHeight: 1.7,
-            marginBottom: 56,
-            fontWeight: 300,
-          }}
-        >
-          Busco posición remota como Full Stack Developer o Backend Developer.
-          Si te interesa mi perfil, hablemos.
         </p>
 
         <a
@@ -91,11 +65,12 @@ export default function Contact() {
           className="btn-primary"
           style={{
             fontSize: 14,
-            padding: "16px 40px",
+            padding: "12px 40px",
             marginBottom: 48,
             display: "inline-flex",
             alignItems: "center",
             gap: 10,
+            marginTop: 20,
           }}
         >
           <IconEmail /> lucaspy1943@icloud.com

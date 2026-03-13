@@ -143,6 +143,18 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
+          <a
+            href="#contact"
+            onClick={() => setMenuOpen(false)}
+            style={{
+              fontFamily: "JetBrains Mono, monospace",
+              fontSize: 13,
+              color: "var(--text-secondary)",
+              letterSpacing: "0.05em",
+            }}
+          >
+            contacto
+          </a>
         </div>
       )}
 

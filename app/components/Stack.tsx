@@ -72,32 +72,18 @@ export default function Stack() {
     >
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px" }}>
         {/* Header */}
-        <div className="reveal" style={{ marginBottom: 72 }}>
+        <div className="reveal" style={{ marginBottom: 50 }}>
           <p
             style={{
               fontFamily: "JetBrains Mono, monospace",
-              fontSize: 11,
+              fontSize: 14,
               color: "var(--accent)",
               letterSpacing: "0.15em",
               textTransform: "uppercase",
-              marginBottom: 12,
             }}
           >
             03 / stack
           </p>
-          <h2
-            style={{
-              fontFamily: "Cormorant Garamond, serif",
-              fontSize: "clamp(2rem, 5vw, 3.5rem)",
-              fontWeight: 300,
-              lineHeight: 1.1,
-            }}
-          >
-            Tecnologías y{" "}
-            <em style={{ fontStyle: "italic", color: "var(--accent)" }}>
-              herramientas
-            </em>
-          </h2>
         </div>
 
         {/* Categories */}

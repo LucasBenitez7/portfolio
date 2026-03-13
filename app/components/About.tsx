@@ -15,29 +15,16 @@ export default function About() {
           <p
             style={{
               fontFamily: "JetBrains Mono, monospace",
-              fontSize: 11,
+              fontSize: 14,
               color: "var(--accent)",
               letterSpacing: "0.15em",
               textTransform: "uppercase",
-              marginBottom: 12,
+              marginBottom: 50,
             }}
           >
             01 / sobre mí
           </p>
-          <h2
-            style={{
-              fontFamily: "Cormorant Garamond, serif",
-              fontSize: "clamp(2rem, 4vw, 3rem)",
-              fontWeight: 300,
-              lineHeight: 1.15,
-              marginBottom: 32,
-            }}
-          >
-            Full Stack {" "}
-            <em style={{ fontStyle: "italic", color: "var(--accent)" }}>
-              Developer
-            </em>
-          </h2>
+        
           <p
             style={{
               fontSize: 15,
@@ -47,8 +34,21 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            Soy Lucas, 25 años, viviendo en A Coruña. Construyo aplicaciones completas
-            con TypeScript, React y NestJS, me encargo de todo desde la interfaz, el backend y el despliegue.
+            Soy Lucas, 25 años, viviendo en A Coruña. Construyo aplicaciones
+            completas con TypeScript, React y NestJS — cubro todo el ciclo:
+            desde la interfaz hasta el backend y el despliegue en producción.
+          </p>
+          <p
+            style={{
+              fontSize: 15,
+              color: "var(--text-secondary)",
+              lineHeight: 1.85,
+              marginBottom: 20,
+              fontWeight: 300,
+            }}
+          >
+            Trabajo con orden, código tipado, responsabilidades bien separadas y
+            arquitectura clara. Así el código queda mantenible y escalable.
           </p>
           <p
             style={{
