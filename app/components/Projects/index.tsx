@@ -5,7 +5,16 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <section id="projects" style={{ maxWidth: 1200, margin: "0 auto", padding: "100px 24px" }}>
+    <section
+      id="projects"
+      className="section-bg"
+      style={{
+        borderTop: "1px solid var(--border)",
+        borderBottom: "1px solid var(--border)",
+        padding: "100px 24px",
+      }}
+    >
+      <div style={{ maxWidth: 1200, margin: "0 auto" }}>
       <div className="reveal" style={{ marginBottom: 50 }}>
         <p style={{ fontFamily: "JetBrains Mono, monospace", fontSize: 14, color: "var(--accent)", letterSpacing: "0.15em", textTransform: "uppercase" }}>
           02 / proyectos
@@ -19,6 +28,7 @@ export default function Projects() {
             <ProjectCard project={project} />
           </div>
         ))}
+      </div>
       </div>
     </section>
   );

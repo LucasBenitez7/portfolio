@@ -8,7 +8,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Lucas Benítez — Full Stack Developer",
+  title: "Lucas Benítez — Full Stack Dev",
   description:
     "Full Stack Developer especializado en TypeScript, React, Next.js y NestJS. Proyectos en producción con Stripe, AWS EC2, Redis y testing exhaustivo.",
   keywords: [

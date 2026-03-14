@@ -1,6 +1,9 @@
 export default function Footer() {
   return (
-    <footer style={{ borderTop: "1px solid var(--border)", padding: "24px" }}>
+    <footer
+      className="section-bg"
+      style={{ borderTop: "1px solid var(--border)", padding: "24px" }}
+    >
       <div
         style={{
           maxWidth: 1200,

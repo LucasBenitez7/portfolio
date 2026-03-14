@@ -3,7 +3,6 @@
 import { IconEmail, IconPhone, IconGitHub, IconLinkedIn } from "./icons";
 
 const CONTACT_LINKS = [
-  { href: "tel:+34624897409", icon: <IconPhone />, label: "+34 624 897 409" },
   {
     href: "https://github.com/LucasBenitez7",
     icon: <IconGitHub />,
@@ -20,8 +19,10 @@ export default function Contact() {
   return (
     <section
       id="contact"
+      className="section-bg"
       style={{
         borderTop: "1px solid var(--border)",
+        borderBottom: "1px solid var(--border)",
         padding: "100px 24px",
         textAlign: "center",
         position: "relative",

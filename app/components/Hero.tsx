@@ -22,34 +22,6 @@ export default function Hero() {
         overflow: "hidden",
       }}
     >
-      {/* Glows */}
-      <div
-        style={{
-          position: "absolute",
-          top: "15%",
-          right: "8%",
-          width: 480,
-          height: 480,
-          borderRadius: "50%",
-          background:
-            "radial-gradient(circle, rgba(16,185,129,0.05) 0%, transparent 70%)",
-          pointerEvents: "none",
-        }}
-      />
-      <div
-        style={{
-          position: "absolute",
-          bottom: "10%",
-          left: "5%",
-          width: 280,
-          height: 280,
-          borderRadius: "50%",
-          background:
-            "radial-gradient(circle, rgba(16,185,129,0.025) 0%, transparent 70%)",
-          pointerEvents: "none",
-        }}
-      />
-
       <div
         style={{
           maxWidth: 1200,

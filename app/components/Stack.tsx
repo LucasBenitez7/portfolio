@@ -62,12 +62,11 @@ export default function Stack() {
   return (
     <section
       id="stack"
+      className="section-bg"
       style={{
         borderTop: "1px solid var(--border)",
         borderBottom: "1px solid var(--border)",
         padding: "100px 0",
-        background:
-          "linear-gradient(180deg, rgba(16,185,129,0.012) 0%, transparent 100%)",
       }}
     >
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px" }}>

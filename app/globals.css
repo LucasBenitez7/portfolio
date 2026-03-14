@@ -85,6 +85,11 @@ a {
   text-decoration: none;
 }
 
+/* ─── SECTION BG (About, Projects, Stack, Contact, Footer) ── */
+.section-bg {
+  background: var(--bg);
+}
+
 /* ─── SCROLL REVEAL ─── */
 .reveal {
   opacity: 0;

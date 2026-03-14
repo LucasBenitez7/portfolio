@@ -4,10 +4,10 @@ export default function About() {
   return (
     <section
       id="about"
+      className="section-bg"
       style={{
         borderTop: "1px solid var(--border)",
         borderBottom: "1px solid var(--border)",
-        background: "rgba(16,185,129,0.015)",
       }}
     >
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "100px 24px" }}>
