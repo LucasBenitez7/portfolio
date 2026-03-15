@@ -12,7 +12,7 @@ export interface StackCategory {
 
 export const STACK_CATEGORIES: StackCategory[] = [
   {
-    title: "Core",
+    title: "Frontend & UI",
     items: [
       {
         name: "TypeScript",
@@ -34,31 +34,22 @@ export const STACK_CATEGORIES: StackCategory[] = [
         color: "#ffffff",
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><circle cx="64" cy="64" r="60" fill="#000"/><path d="M106.3 99.3L51 24H40v80h9.7V37l50.6 68.2c2-1.9 4-4.1 6-5.9z" fill="white"/><rect x="79" y="24" width="10" height="80" fill="white"/></svg>`,
       },
-      {
-        name: "Node.js",
-        color: "#339933",
-        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#339933" d="M64 4.5L8.6 36.8v64.4L64 133.5l55.4-32.3V36.8L64 4.5zm0 10.8l44.6 26v52L64 119.3 19.4 93.3v-52L64 15.3z"/><path fill="#339933" d="M64 31.7L35.2 48.4v33.2L64 98.3l28.8-16.7V48.4L64 31.7zm0 8.7l20 11.6v23.2L64 86.8 44 75.2V52L64 40.4z"/></svg>`,
-      },
+
       {
         name: "Tailwind CSS v4",
         color: "#38bdf8",
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#38BDF8" d="M64 16c-18.2 0-29.6 9.1-33.9 27.3 6.8-9.1 14.7-12.5 23.8-10.2 5.2 1.3 8.9 5 12.9 9.2C73 49.2 79.9 56.5 96 56.5c18.2 0 29.6-9.1 33.9-27.3-6.8 9.1-14.7 12.5-23.8 10.2-5.2-1.3-8.9-5-12.9-9.2C86.9 23.3 79.9 16 64 16zm-32 34.2c-18.2 0-29.6 9.1-33.9 27.3C5 68.4 12.9 65 22 67.3c5.2 1.3 8.9 5 12.9 9.2 6.2 6.9 13.1 14.2 29.2 14.2 18.2 0 29.6-9.1 33.9-27.3-6.8 9.1-14.7 12.5-23.8 10.2-5.2-1.3-8.9-5-12.9-9.2C55 57.5 48.1 50.2 32 50.2z"/></svg>`,
       },
-      {
-        name: "Git",
-        color: "#f05032",
-        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#F05032" d="M124.74 57.6L70.4 3.26a11.14 11.14 0 00-15.75 0l-11.1 11.1 14.1 14.1a13.24 13.24 0 0116.76 16.89l13.58 13.58a13.26 13.26 0 1112.56 21.51 13.26 13.26 0 01-12.23-18.24L75.14 48.58v34.15a13.26 13.26 0 11-10.88-.38V47.41a13.24 13.24 0 01-7.19-17.38L43.03 16 3.26 55.78a11.14 11.14 0 000 15.75L57.6 125.88a11.14 11.14 0 0015.75 0l51.39-51.53a11.14 11.14 0 000-15.75z"/></svg>`,
-      },
-      {
-        name: "GitHub",
-        color: "#e0e0e0",
-        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#e0e0e0" d="M64 5.1C32 5.1 5.9 31.2 5.9 63.2c0 25.6 16.6 47.4 39.6 55.1 2.9.5 4-1.3 4-2.8V104c-16.1 3.5-19.5-6.9-19.5-6.9-2.6-6.7-6.4-8.5-6.4-8.5-5.3-3.6.4-3.5.4-3.5 5.8.4 8.9 6 8.9 6 5.2 8.9 13.6 6.3 16.9 4.8.5-3.8 2-6.3 3.7-7.7-12.9-1.5-26.4-6.4-26.4-28.7 0-6.3 2.3-11.5 6-15.5-.6-1.5-2.6-7.4.6-15.3 0 0 4.9-1.6 15.9 5.9 4.6-1.3 9.5-1.9 14.4-1.9 4.9 0 9.8.7 14.4 1.9 11-7.5 15.9-5.9 15.9-5.9 3.2 8 1.2 13.8.6 15.3 3.7 4 6 9.2 6 15.5 0 22.3-13.6 27.2-26.5 28.6 2.1 1.8 3.9 5.3 3.9 10.7v15.9c0 1.5 1 3.3 4 2.8C105.5 110.6 122.1 88.8 122.1 63.2 122.1 31.2 96 5.1 64 5.1z"/></svg>`,
-      },
     ],
   },
   {
-    title: "Backend",
+    title: "Backend & Real-time",
     items: [
+      {
+        name: "Node.js",
+        color: "#339933",
+        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#339933" d="M64 4.5L8.6 36.8v64.4L64 133.5l55.4-32.3V36.8L64 4.5zm0 10.8l44.6 26v52L64 119.3 19.4 93.3v-52L64 15.3z"/><path fill="#339933" d="M64 31.7L35.2 48.4v33.2L64 98.3l28.8-16.7V48.4L64 31.7zm0 8.7l20 11.6v23.2L64 86.8 44 75.2V52L64 40.4z"/></svg>`,
+      },
       {
         name: "NestJS",
         color: "#e0234e",
@@ -70,29 +61,25 @@ export const STACK_CATEGORIES: StackCategory[] = [
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#999" d="M126.67 98.44c-4.56 1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89 76 81.85 85.2 75.14 94.77c-2.4 3.42-4.92 4.91-9.4 3.7l26.29-36.13L67.6 29.71c4.31-.84 7.29-.41 9.93 3.45 5.83 8.52 12.26 16.63 18.67 25.21 6.45-8.55 12.8-16.67 18.8-25.11 2.41-3.42 4.86-4.84 9.2-3.51L97.5 61.84l29.17 36.6zM1.33 61.84c.72-3.61 1.2-7.29 2.2-10.83 6-21.43 30.6-30.34 47.5-17.06C60.93 41.64 63.98 52 64 63c.03 10.35-2.99 21-10.32 27.54-13.38 12.03-34.35 10.72-44.61-2.8-3.96-5.1-5.51-11.5-7.74-17.9zm40.94 5.42c6.4-.06 11.3-5.1 11.21-11.41-.08-6.06-5.02-10.92-11.14-10.97-6.24-.05-11.33 5.1-11.33 11.44 0 6.37 5.01 11.43 11.26 11.94z"/></svg>`,
       },
       {
+        name: "Prisma ORM",
+        color: "#5a67d8",
+        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#0C344B" d="M116.5 96.9L74.2 11.5c-1.4-2.8-3.9-4.5-6.7-4.5s-5.3 1.7-6.7 4.5L11.5 96.9c-1.3 2.6-1.1 5.6.4 8 1.6 2.4 4.2 3.8 7 3.8h90.2c2.8 0 5.4-1.4 7-3.8 1.5-2.4 1.7-5.4.4-8zm-49-60.6l23.8 47.5H45.1l22.4-47.5z"/></svg>`,
+      },
+      {
         name: "WebSockets",
         color: "#8b5cf6",
         icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="12" fill="#1a1a2e"/><path d="M24 64c0-22.1 17.9-40 40-40s40 17.9 40 40-17.9 40-40 40S24 86.1 24 64z" stroke="#8b5cf6" stroke-width="8" fill="none"/><path d="M44 64l20-20 20 20-20 20-20-20z" fill="#8b5cf6"/></svg>`,
       },
-      {
-        name: "Redis",
-        color: "#d82c20",
-        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#A41E11" d="M121.8 93.1c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.9-11.5 3.8-17.3 1S11.2 98 4.6 94.5c-3.3-1.8-3.4-3-.1-4.7l49-21.9c6.8-3 9.4-3.1 16.1-.1s44.7 19 47.8 21.3c2.9 2.2 1.9 3.2-5.6 4z"/><path fill="#D82C20" d="M121.8 80.3c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.9-11.5 3.8-17.3 1S11.2 85.2 4.6 81.7c-3.3-1.8-3.4-3-.1-4.7l49-21.9c6.8-3 9.4-3.1 16.1-.1s44.7 19 47.8 21.3c2.9 2.2 1.9 3.2-5.6 4z"/><path fill="#fff" d="M79.6 56.8L65.5 62.3l-15.7-5.2 14.1-5.6 15.7 5.3zm-17.9 14.8l-4.1-1.8 17.3-6.8 4.1 1.8-17.3 6.8z"/></svg>`,
-      },
+
       {
         name: "Socket.io",
         color: "#ffffff",
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><circle cx="64" cy="64" r="60" fill="#010101"/><path fill="white" d="M68.5 28.7L34.2 68.3h27.1L55.5 99.3l34.3-39.6H62.7z"/></svg>`,
       },
-      {
-        name: "Prisma ORM",
-        color: "#5a67d8",
-        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#0C344B" d="M116.5 96.9L74.2 11.5c-1.4-2.8-3.9-4.5-6.7-4.5s-5.3 1.7-6.7 4.5L11.5 96.9c-1.3 2.6-1.1 5.6.4 8 1.6 2.4 4.2 3.8 7 3.8h90.2c2.8 0 5.4-1.4 7-3.8 1.5-2.4 1.7-5.4.4-8zm-49-60.6l23.8 47.5H45.1l22.4-47.5z"/></svg>`,
-      },
     ],
   },
   {
-    title: "Bases de datos",
+    title: "Databases & Cache",
     items: [
       {
         name: "PostgreSQL",
@@ -100,9 +87,19 @@ export const STACK_CATEGORIES: StackCategory[] = [
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#336791" d="M64 12C35.3 12 12 35.3 12 64s23.3 52 52 52 52-23.3 52-52S92.7 12 64 12zm0 8c9.5 0 18.3 3.1 25.4 8.3L28.3 89.4C23.1 82.3 20 73.5 20 64c0-24.3 19.7-44 44-44zm0 88c-9.5 0-18.3-3.1-25.4-8.3l61.1-61.1C99.9 45.7 103 54.5 103 64c0 24.3-19.7 44-44 44z"/><path fill="white" d="M64 40c-13.3 0-24 10.7-24 24s10.7 24 24 24 24-10.7 24-24-10.7-24-24-24zm0 8c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"/></svg>`,
       },
       {
+        name: "Neon",
+        color: "#3ecf8e",
+        icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="16" fill="#000"/><path d="M24 96V32l72 64V32" stroke="#00E5A0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+      },
+      {
         name: "MongoDB",
         color: "#47a248",
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#599636" d="M90.491 57.282c-1.819-8.037-6.168-15.053-10.391-22.168C76.2 29.01 71.862 22.619 70.307 15c-.436 2.616-.763 4.384-1.854 6.783-3.608 7.938-9.788 13.613-15.434 19.777-9.337 10.073-16.645 21.423-17.35 35.512-.013.262-.024.522-.034.786 0 .025-.007.049-.007.073C35.579 89.481 48.57 104.61 66.01 108c.155.03.313.056.468.084l.518.092c1.562.236 3.149.35 4.758.35l2.037-.107c.244-.02.488-.04.73-.066C92.122 106.182 105 91.385 105 73.687c0-5.978-1.221-11.665-3.587-16.844l-10.922.439z"/><path fill="#6CAC48" d="M64.674 115.896c-.312-3.292-.94-6.575-2.027-9.728-.01-.03-.02-.06-.032-.092l-.015-.044c-1.178-3.286-2.901-6.34-4.731-9.342-1.806-2.966-3.679-5.904-5.243-8.993-.748-1.475-1.43-2.98-1.988-4.531-.64-1.765-1.07-3.6-1.188-5.476l-.019-.451h-3.32c.23 3.877.67 7.749 1.346 11.58.665 3.776 1.652 7.514 2.853 11.168.587 1.78 1.218 3.545 1.882 5.292.662 1.741 1.357 3.467 2.067 5.188.703 1.71 1.42 3.419 2.133 5.128.383.919.76 1.841 1.124 2.764 2.068-.554 4.083-1.282 6.025-2.175l.133-.288z"/><path fill="#C2BFBF" d="M70 107.499V21.5c-.574 0-1.128.04-1.678.107-1.007 5.826-3.624 10.914-6.77 15.749C56.044 45.798 48.1 53.61 45.015 63.923c-.802 2.69-1.21 5.499-1.21 8.331 0 14.674 10.405 27.066 24.596 29.837.196.038.393.074.59.108l1.01.163V107.499z"/></svg>`,
+      },
+      {
+        name: "Redis",
+        color: "#d82c20",
+        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#A41E11" d="M121.8 93.1c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.9-11.5 3.8-17.3 1S11.2 98 4.6 94.5c-3.3-1.8-3.4-3-.1-4.7l49-21.9c6.8-3 9.4-3.1 16.1-.1s44.7 19 47.8 21.3c2.9 2.2 1.9 3.2-5.6 4z"/><path fill="#D82C20" d="M121.8 80.3c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.9-11.5 3.8-17.3 1S11.2 85.2 4.6 81.7c-3.3-1.8-3.4-3-.1-4.7l49-21.9c6.8-3 9.4-3.1 16.1-.1s44.7 19 47.8 21.3c2.9 2.2 1.9 3.2-5.6 4z"/><path fill="#fff" d="M79.6 56.8L65.5 62.3l-15.7-5.2 14.1-5.6 15.7 5.3zm-17.9 14.8l-4.1-1.8 17.3-6.8 4.1 1.8-17.3 6.8z"/></svg>`,
       },
       {
         name: "Firebase",
@@ -112,13 +109,18 @@ export const STACK_CATEGORIES: StackCategory[] = [
     ],
   },
   {
-    title: "Testing",
+    title: "Testing & QA",
     highlight: true,
     items: [
       {
         name: "Vitest",
         color: "#6e9f18",
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#6E9F18" d="M64 12L10 104h30l24-44 24 44h30L64 12z"/><path fill="#ACD268" d="M64 12L42 52h44L64 12z" opacity=".8"/></svg>`,
+      },
+      {
+        name: "Coverage v8",
+        color: "#cb3837",
+        icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="12" fill="#1a0505"/><circle cx="64" cy="64" r="44" stroke="#cb3837" stroke-width="8" fill="none"/><path d="M64 20v44l31.1 31.1" stroke="#cb3837" stroke-width="8" stroke-linecap="round"/></svg>`,
       },
       {
         name: "Testing Library",
@@ -145,21 +147,32 @@ export const STACK_CATEGORIES: StackCategory[] = [
         color: "#ef5b25",
         icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><circle cx="64" cy="64" r="56" fill="#EF5B25"/><path fill="white" d="M40 40h16l24 32V40h16v48H80L56 56v32H40V40z"/></svg>`,
       },
-      {
-        name: "GitHub Actions",
-        color: "#2088ff",
-        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="16" fill="#2088FF"/><circle cx="64" cy="44" r="16" fill="white"/><path fill="white" d="M36 96c0-15.5 12.5-28 28-28s28 12.5 28 28H36z"/></svg>`,
-      },
-      {
-        name: "Coverage v8",
-        color: "#cb3837",
-        icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="12" fill="#1a0505"/><circle cx="64" cy="64" r="44" stroke="#cb3837" stroke-width="8" fill="none"/><path d="M64 20v44l31.1 31.1" stroke="#cb3837" stroke-width="8" stroke-linecap="round"/></svg>`,
-      },
     ],
   },
   {
     title: "DevOps & Cloud",
     items: [
+      {
+        name: "Git",
+        color: "#f05032",
+        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#F05032" d="M124.74 57.6L70.4 3.26a11.14 11.14 0 00-15.75 0l-11.1 11.1 14.1 14.1a13.24 13.24 0 0116.76 16.89l13.58 13.58a13.26 13.26 0 1112.56 21.51 13.26 13.26 0 01-12.23-18.24L75.14 48.58v34.15a13.26 13.26 0 11-10.88-.38V47.41a13.24 13.24 0 01-7.19-17.38L43.03 16 3.26 55.78a11.14 11.14 0 000 15.75L57.6 125.88a11.14 11.14 0 0015.75 0l51.39-51.53a11.14 11.14 0 000-15.75z"/></svg>`,
+      },
+      {
+        name: "GitHub",
+        color: "#e0e0e0",
+        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#e0e0e0" d="M64 5.1C32 5.1 5.9 31.2 5.9 63.2c0 25.6 16.6 47.4 39.6 55.1 2.9.5 4-1.3 4-2.8V104c-16.1 3.5-19.5-6.9-19.5-6.9-2.6-6.7-6.4-8.5-6.4-8.5-5.3-3.6.4-3.5.4-3.5 5.8.4 8.9 6 8.9 6 5.2 8.9 13.6 6.3 16.9 4.8.5-3.8 2-6.3 3.7-7.7-12.9-1.5-26.4-6.4-26.4-28.7 0-6.3 2.3-11.5 6-15.5-.6-1.5-2.6-7.4.6-15.3 0 0 4.9-1.6 15.9 5.9 4.6-1.3 9.5-1.9 14.4-1.9 4.9 0 9.8.7 14.4 1.9 11-7.5 15.9-5.9 15.9-5.9 3.2 8 1.2 13.8.6 15.3 3.7 4 6 9.2 6 15.5 0 22.3-13.6 27.2-26.5 28.6 2.1 1.8 3.9 5.3 3.9 10.7v15.9c0 1.5 1 3.3 4 2.8C105.5 110.6 122.1 88.8 122.1 63.2 122.1 31.2 96 5.1 64 5.1z"/></svg>`,
+      },
+      {
+        name: "Husky + lint",
+        color: "#cb3837",
+        icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="12" fill="#1a0a0a"/><path d="M24 96V60l16-28h48l16 28v36H24z" stroke="#CB3837" stroke-width="6" fill="none"/><path d="M44 96V76h40v20" stroke="#CB3837" stroke-width="6" stroke-linecap="round"/><path d="M64 48v20M52 56l12-8 12 8" stroke="#CB3837" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+      },
+      {
+        name: "GitHub Actions",
+        color: "#2088ff",
+        icon: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="16" fill="#2088FF"/><circle cx="64" cy="44" r="16" fill="white"/><path fill="white" d="M36 96c0-15.5 12.5-28 28-28s28 12.5 28 28H36z"/></svg>`,
+      },
+
       {
         name: "Docker",
         color: "#2496ed",
@@ -184,16 +197,6 @@ export const STACK_CATEGORIES: StackCategory[] = [
         name: "Railway",
         color: "#8b5cf6",
         icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="16" fill="#0B0D0E"/><path d="M20 96l12-64h64l12 64H20zM36 64h56M28 80h72" stroke="#8B5CF6" stroke-width="6" stroke-linecap="round"/></svg>`,
-      },
-      {
-        name: "Husky + lint",
-        color: "#cb3837",
-        icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="12" fill="#1a0a0a"/><path d="M24 96V60l16-28h48l16 28v36H24z" stroke="#CB3837" stroke-width="6" fill="none"/><path d="M44 96V76h40v20" stroke="#CB3837" stroke-width="6" stroke-linecap="round"/><path d="M64 48v20M52 56l12-8 12 8" stroke="#CB3837" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
-      },
-      {
-        name: "Neon",
-        color: "#3ecf8e",
-        icon: `<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="16" fill="#000"/><path d="M24 96V32l72 64V32" stroke="#00E5A0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
       },
     ],
   },
