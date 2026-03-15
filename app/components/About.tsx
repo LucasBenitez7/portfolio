@@ -24,7 +24,7 @@ export default function About() {
           >
             01 / sobre mí
           </p>
-        
+
           <p
             style={{
               fontSize: 15,
@@ -35,8 +35,8 @@ export default function About() {
             }}
           >
             Soy Lucas, 25 años, viviendo en A Coruña. Construyo aplicaciones
-            completas con TypeScript, React y NestJS — cubro todo el ciclo:
-            desde la interfaz hasta el backend y el despliegue en producción.
+            completas con TypeScript, React y Node.js - cubro todo el ciclo:
+            desde la interfaz, el backend y el despliegue en producción.
           </p>
           <p
             style={{
