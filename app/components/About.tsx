@@ -34,9 +34,9 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            Soy Lucas, 25 años, viviendo en A Coruña. Construyo aplicaciones
-            completas con TypeScript, React y Node.js - cubro todo el ciclo:
-            desde la interfaz, el backend y el despliegue en producción.
+            Soy Lucas, Construyo aplicaciones completas con TypeScript y
+            JavaScript, cubro todo el ciclo: desde la interfaz, el backend y el
+            despliegue en producción.
           </p>
           <p
             style={{
@@ -62,17 +62,6 @@ export default function About() {
             Le doy bastante importancia a que el código funcione de verdad.
             Escribo tests, pruebo los flujos completos y verifico que aguanta
             bajo carga.
-          </p>
-          <p
-            style={{
-              fontSize: 15,
-              color: "var(--text-secondary)",
-              lineHeight: 1.85,
-              fontWeight: 300,
-            }}
-          >
-            Fuera del código me gusta entrenar y hacer cosas que me hagan
-            mejorar.
           </p>
         </div>
       </div>
