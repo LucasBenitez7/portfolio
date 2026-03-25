@@ -8,10 +8,10 @@ Portfolio personal de Lucas Benítez, Full Stack Developer.
 
 ## Stack
 
-- **Next.js 15** (App Router)
+- **Next.js 16** (App Router)
 - **React 19**
 - **TypeScript**
-- **Tailwind CSS v4**
+- **Tailwind CSS v3**
 - **Framer Motion**
 
 -----
