@@ -34,9 +34,8 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            Soy Lucas, Construyo aplicaciones completas con TypeScript y
-            JavaScript, cubro todo el ciclo: desde la interfaz, el backend y el
-            despliegue en producción.
+            Construyo aplicaciones full stack y APIs backend con foco en
+            arquitectura, rendimiento y mantenibilidad.
           </p>
           <p
             style={{
@@ -47,8 +46,9 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            Trabajo con orden, código tipado, responsabilidades bien separadas y
-            arquitectura clara. Así el código queda mantenible y escalable.
+            He implementado pagos online, cero sobreventa bajo carga con
+            transacciones ACID verificadas con load testing, arquitectura
+            hexagonal y pipelines CI/CD completos con despliegue en producción.
           </p>
           <p
             style={{
@@ -59,9 +59,8 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            Le doy bastante importancia a que el código funcione de verdad.
-            Escribo tests, pruebo los flujos completos y verifico que aguanta
-            bajo carga.
+            Escribo tests — unitarios, integración, E2E — y verifico que el
+            sistema aguanta bajo carga real. Así es como entrego código.
           </p>
         </div>
       </div>

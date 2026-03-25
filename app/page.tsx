@@ -1,13 +1,13 @@
 "use client";
 
-import { useReveal } from "./hooks/useReveal";
-import Nav      from "./components/Nav";
-import Hero     from "./components/Hero";
-import About    from "./components/About";
-import Projects from "./components/Projects";
-import Stack    from "./components/Stack";
-import Contact  from "./components/Contact";
-import Footer   from "./components/Footer";
+import { useReveal } from "@/app/hooks/useReveal";
+import Nav from "@/app/components/layout/Nav";
+import Hero from "@/app/components/sections/hero/Hero";
+import About from "@/app/components/sections/about/About";
+import Projects from "@/app/components/sections/projects/Projects";
+import Stack from "@/app/components/sections/stack/Stack";
+import Contact from "@/app/components/sections/contact/Contact";
+import Footer from "@/app/components/layout/Footer";
 
 export default function Page() {
   useReveal();

@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useTypewriter } from "../hooks/useTypewriter";
-import { IconArrow } from "./icons";
+import { useTypewriter } from "@/app/hooks/useTypewriter";
+import { IconArrow } from "@/app/components/icons";
 
 export default function Hero() {
   const { display: typed, showCursor } = useTypewriter(
@@ -35,7 +35,6 @@ export default function Hero() {
         }}
         className="hero-layout"
       >
-        {/* Texto */}
         <div>
           <h1
             className="animate-fade-up delay-100"
@@ -94,7 +93,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Foto */}
         <div className="animate-fade-up delay-300 hero-photo">
           <div className="photo-ring" style={{ width: 220, height: 220 }}>
             <div

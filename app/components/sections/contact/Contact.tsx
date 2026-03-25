@@ -1,6 +1,11 @@
 "use client";
 
-import { IconEmail, IconPhone, IconGitHub, IconLinkedIn } from "./icons";
+import {
+  IconEmail,
+  IconPhone,
+  IconGitHub,
+  IconLinkedIn,
+} from "@/app/components/icons";
 
 const CONTACT_LINKS = [
   {
@@ -29,7 +34,6 @@ export default function Contact() {
         overflow: "hidden",
       }}
     >
-      {/* Glow de fondo */}
       <div
         style={{
           position: "absolute",

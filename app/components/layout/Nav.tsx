@@ -8,6 +8,9 @@ const NAV_LINKS = [
   { label: "stack", href: "#stack" },
 ];
 
+/** Must match `@media (max-width: 768px)` below — desktop is wider than this. */
+const NAV_MOBILE_MAX_PX = 768;
+
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,6 +19,18 @@ export default function Nav() {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    const mq = window.matchMedia(
+      `(min-width: ${NAV_MOBILE_MAX_PX + 1}px)`,
+    );
+    const closeMenuOnDesktop = () => {
+      if (mq.matches) setMenuOpen(false);
+    };
+    closeMenuOnDesktop();
+    mq.addEventListener("change", closeMenuOnDesktop);
+    return () => mq.removeEventListener("change", closeMenuOnDesktop);
   }, []);
 
   return (
@@ -33,22 +48,20 @@ export default function Nav() {
           justifyContent: "space-between",
         }}
       >
-        {/* Logo */}
         <a
           href="#"
           style={{
             fontFamily: "JetBrains Mono, monospace",
-            fontSize: 16,
+            fontSize: 18,
             fontWeight: 700,
             color: "var(--accent)",
             letterSpacing: "0.1em",
             textTransform: "uppercase",
           }}
         >
-          lsb
+          LSB
         </a>
 
-        {/* Desktop links */}
         <div
           style={{ display: "flex", gap: 32, alignItems: "center" }}
           className="nav-desktop"
@@ -84,8 +97,8 @@ export default function Nav() {
           </a>
         </div>
 
-        {/* Mobile burger */}
         <button
+          type="button"
           onClick={() => setMenuOpen(!menuOpen)}
           className="nav-mobile-btn"
           style={{
@@ -117,9 +130,9 @@ export default function Nav() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {menuOpen && (
         <div
+          className="nav-mobile-panel"
           style={{
             borderTop: "1px solid var(--border)",
             padding: "20px 24px",
@@ -159,9 +172,12 @@ export default function Nav() {
       )}
 
       <style>{`
-        @media (max-width: 768px) {
+        @media (max-width: ${NAV_MOBILE_MAX_PX}px) {
           .nav-desktop { display: none !important; }
           .nav-mobile-btn { display: block !important; }
+        }
+        @media (min-width: ${NAV_MOBILE_MAX_PX + 1}px) {
+          .nav-mobile-panel { display: none !important; }
         }
       `}</style>
     </nav>

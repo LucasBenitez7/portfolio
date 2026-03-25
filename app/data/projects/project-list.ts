@@ -40,9 +40,44 @@ export const PROJECTS = [
     ],
   },
   {
+    id: "booking-api",
+    type: "REST API · Arquitectura hexagonal",
+    name: "BookingAPI",
+    url: "https://booking.lsbstack.com/docs",
+    repo: "https://github.com/LucasBenitez7/booking-api",
+    description:
+      "API REST de gestión de reservas con arquitectura hexagonal, caché de disponibilidad en Redis, workers asincrónicos con Celery, autenticación JWT con rotación de tokens y despliegue en Railway con infraestructura Kubernetes lista para producción.",
+    stack: [
+      "Python 3.12",
+      "FastAPI",
+      "Pydantic v2",
+      "PostgreSQL 16",
+      "SQLAlchemy 2",
+      "Alembic",
+      "Redis 7",
+      "Celery",
+      "mypy strict",
+      "Ruff",
+      "pytest",
+      "Docker",
+      "Kubernetes",
+      "Railway",
+      "GitHub Actions",
+    ],
+    /* Python yellow — mismo tono marca #3776ab */
+    color: "#4d86c2",
+    colorHover: "#5b91c2",
+    colorDim: "rgba(77, 134, 194, 0.12)",
+    colorRgb: "77, 134, 194",
+    ci: [
+      { label: "CI", badge: "passing" },
+      { label: "Security", badge: "passing" },
+    ],
+  },
+  {
     id: "ticketmaster",
     name: "TicketMaster API",
-    type: "REST API · Alta Concurrencia · Demo",
+    type: "REST API · Alta Concurrencia",
     url: "https://ticket.lsbstack.com/api/docs",
     repo: "https://github.com/LucasBenitez7/ticketmaster-api",
     description:
@@ -120,5 +155,3 @@ export const PROJECTS = [
     ],
   },
 ] as const;
-
-export type Project = (typeof PROJECTS)[number];

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCounter } from "../../hooks/useCounter";
+import { useCounter } from "@/app/hooks/useCounter";
 
 interface StatProps {
   value: number;
@@ -13,7 +13,7 @@ export default function Stat({ value, label, suffix = "", color }: StatProps) {
   const { count, ref } = useCounter(value, 1600);
 
   return (
-    <div style={{ textAlign: "left", }}>
+    <div style={{ textAlign: "left" }}>
       <div
         style={{
           fontFamily: "Cormorant Garamond, serif",
