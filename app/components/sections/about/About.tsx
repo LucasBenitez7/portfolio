@@ -46,7 +46,7 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            He implementado pagos online, cero sobreventa bajo carga con
+            He implementado autenticación avanzada, pagos online, cero sobreventa bajo carga con
             transacciones ACID verificadas con load testing, arquitectura
             hexagonal y pipelines CI/CD completos con despliegue en producción.
           </p>
@@ -60,7 +60,7 @@ export default function About() {
             }}
           >
             Escribo tests — unitarios, integración, E2E — y verifico que el
-            sistema aguanta bajo carga real. Así es como entrego código.
+            sistema aguanta bajo carga real.
           </p>
         </div>
       </div>

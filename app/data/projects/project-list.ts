@@ -6,7 +6,7 @@ export const PROJECTS = [
     url: "https://shop.lsbstack.com",
     repo: "https://github.com/LucasBenitez7/acme-commerce-starter",
     description:
-      "Tienda online completa con pagos reales, autenticación avanzada (OAuth + OTP + roles), panel de administración con CRUD, emails transaccionales y suite de tests completa con CI/CD. Demo con pagos en modo test de Stripe",
+      "Tienda online completa con integración de pagos Stripe, autenticación (OAuth + OTP + roles), panel de administración con CRUD, emails transaccionales y suite de tests completa con CI/CD. Demo funcional en modo test.",
     stack: [
       "Next.js 15",
       "React 19",
