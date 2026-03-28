@@ -6,7 +6,7 @@ export const PROJECTS = [
     url: "https://shop.lsbstack.com",
     repo: "https://github.com/LucasBenitez7/acme-commerce-starter",
     description:
-      "Tienda online completa con integración de pagos Stripe, autenticación (OAuth + OTP + roles), panel de administración con CRUD, emails transaccionales y suite de tests completa con CI/CD. Demo funcional en modo test.",
+      "Tienda online con integración de pagos Stripe (Payment Intents + Webhooks), autenticación avanzada (OAuth, OTP, roles), panel de administración con CRUD e imágenes via Cloudinary, emails transaccionales con Resend y suite de 900+ tests (unitarios, integración y E2E).",
     stack: [
       "Next.js 15",
       "React 19",
@@ -46,7 +46,7 @@ export const PROJECTS = [
     url: "https://booking.lsbstack.com/docs",
     repo: "https://github.com/LucasBenitez7/booking-api",
     description:
-      "API REST de gestión de reservas con arquitectura hexagonal, caché de disponibilidad en Redis, workers asincrónicos con Celery, autenticación JWT con rotación de tokens y despliegue en Railway con infraestructura Kubernetes lista para producción.",
+      "API REST de gestión de reservas con arquitectura hexagonal, caché de disponibilidad en Redis, workers asincrónicos con Celery implementados, autenticación JWT con rotación de tokens y despliegue en Railway con infraestructura Kubernetes lista para producción.",
     stack: [
       "Python 3.12",
       "FastAPI",
@@ -56,6 +56,7 @@ export const PROJECTS = [
       "Alembic",
       "Redis 7",
       "Celery",
+      "Newman",
       "mypy strict",
       "Ruff",
       "pytest",
@@ -63,6 +64,7 @@ export const PROJECTS = [
       "Kubernetes",
       "Railway",
       "GitHub Actions",
+      "Swagger/OpenAPI",
     ],
     /* Python yellow — mismo tono marca #3776ab */
     color: "#4d86c2",
@@ -81,7 +83,7 @@ export const PROJECTS = [
     url: "https://ticket.lsbstack.com/api/docs",
     repo: "https://github.com/LucasBenitez7/ticketmaster-api",
     description:
-      "API REST de alto rendimiento con transacciones ACID para cero sobreventa, pagos async con BullMQ, WebSockets en tiempo real y load testing verificado con k6.",
+      "API REST de alto rendimiento con transacciones ACID para cero sobreventa bajo concurrencia, pagos async con BullMQ + Redis, WebSockets en tiempo real y rate limiting por endpoint. Validado con k6 en 5 escenarios.",
     stack: [
       "NestJS",
       "TypeScript",

@@ -46,21 +46,10 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            He implementado autenticación avanzada, pagos online, cero sobreventa bajo carga con
-            transacciones ACID verificadas con load testing, arquitectura
-            hexagonal y pipelines CI/CD completos con despliegue en producción.
-          </p>
-          <p
-            style={{
-              fontSize: 15,
-              color: "var(--text-secondary)",
-              lineHeight: 1.85,
-              marginBottom: 20,
-              fontWeight: 300,
-            }}
-          >
-            Escribo tests — unitarios, integración, E2E — y verifico que el
-            sistema aguanta bajo carga real.
+            He implementado sistemas de pagos, reservas y e-commerce desplegados
+            en producción — con transacciones ACID verificadas bajo carga.
+            Trabajo con un ciclo de desarrollo completo: diseño, implementación,
+            testing, CI/CD y despliegue.
           </p>
         </div>
       </div>
