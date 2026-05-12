@@ -435,6 +435,39 @@ nav {
   color: var(--text-primary);
 }
 
+/* ─── LOCUST TABLE ─── */
+.locust-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+}
+.locust-table th {
+  padding: 9px 14px;
+  text-align: left;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.locust-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.025);
+  color: var(--text-secondary);
+}
+.locust-table tr:last-child td {
+  border-bottom: none;
+}
+.locust-table tr:hover td {
+  background: rgba(245, 158, 11, 0.06);
+  color: var(--text-primary);
+}
+.locust-val {
+  color: var(--text-primary);
+}
+
 hr {
   border: none;
   border-top: 1px solid var(--border);

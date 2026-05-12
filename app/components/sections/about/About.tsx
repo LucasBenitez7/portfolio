@@ -35,7 +35,8 @@ export default function About() {
             }}
           >
             Construyo aplicaciones full stack y APIs backend con foco en
-            arquitectura, rendimiento y mantenibilidad.
+            arquitectura, rendimiento y mantenibilidad — desde la interfaz hasta
+            el despliegue en producción.
           </p>
           <p
             style={{
@@ -46,10 +47,12 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            He implementado sistemas de pagos, reservas y e-commerce desplegados
-            en producción — con transacciones ACID verificadas bajo carga.
-            Trabajo con un ciclo de desarrollo completo: diseño, implementación,
-            testing, CI/CD y despliegue.
+            He implementado sistemas de pagos, e-commerce, reservas y
+            microservicios distribuidos con event-driven architecture (Apache Kafka),
+            transacciones ACID verificadas bajo carga, y patrones enterprise como
+            Circuit Breaker y Outbox Pattern. Trabajo con observabilidad completa
+            (Prometheus, Grafana, Loki), CI/CD y decisiones técnicas documentadas
+            mediante ADRs.
           </p>
         </div>
       </div>
